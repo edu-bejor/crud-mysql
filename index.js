@@ -1,7 +1,7 @@
 (async () =>{
     const database = require('./db');
     const Produto = require('./produto');
-    await database.sync();
+    await database.sync(); //conecta ao banco
 
     /*const novoProduto = await Produto.create({
         nome: 'Teclado',
